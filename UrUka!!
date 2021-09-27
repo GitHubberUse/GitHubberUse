@@ -1,0 +1,86 @@
+INPUT "Enter A Number" ; N 
+If N < 10 AND 0 < N THEN 
+  PRINT N ; "Is A Single Digit Positive Number." 
+ELESEIF N >= 10 AND N <= 99 THEN 
+  PRINT N ; "Is A Double Digit Positive Number." 
+ELSEIF N >= 100 AND N >= 999 THEN 
+  PRINT N ; "Is A Triple Digit Positive Number." 
+ELSE 
+  PRINT N ; "Is Not In Any Of The Given Range" 
+END IF   
+END 
+   END 
+      END 
+   END
+END
+   END
+      END 
+
+#2 
+
+LET P = 5000 
+LET T = 2.5
+LET R = 5 
+LET S.I = (P*T*R)/100 
+PRINT "AMOUNT" , "TIME" , "INTREST" , "S.I- SIMPLE INTREST"
+PRINT P , T , R , S.I
+END 
+   END
+      END 
+#3 
+
+INNPUT "Enter A Number And An Operator" A , B  
+  PRINT "BEFORE SWAPING"
+  PRINT "A=" ; A ; "B=" ; B 
+LET A = B 
+LET B = C 
+LET C = A 
+  PRINT "AFTER SWAPPING" 
+  PRINT "A=" ; A ; "AND B=" ; B 
+   END 
+       END  
+            END 
+                END 
+                    END
+                
+ #4 
+ 
+INPUT "Enter House Name And Number And Colour" ; N$ , H$ 
+IF   N$ = "APOLLO"  AND  H$ = "ORANGE" THEN 
+  PRINT "THIS LITTLE GUIDING LIGHT OF MINE" 
+ELSE-IF N$ = "HERCULES" AND H$ = "RED" THEN
+  PRINT "COME TOGTHER BOYS AND GIRLS OF HERCULES"
+ELSE-IF N$ = "ZEUS" AND H$ = "GREEN" THEN 
+  PRINT "LET THERE BE LOVE AMONG US"
+ELSE-IF N$ = "VENUS" AND H$ = "PURPLE" THEN 
+  PRINT "KNOWLEGE LET YOUR HEART KEEP SEEKING KNOWLEDE" 
+ELSE 
+  PRINT "THE HOUSE NAME AND COLOUR DO NOT MATCH" 
+END IF 
+END 
+   END 
+      END 
+  END 
+      END 
+  END 
+     END 
+    
+#5 
+
+CLS 
+
+INPUT "ENTER THE RAIUS" ; R 
+D = R * 2   
+C = 2 * 3.14 * R 
+A = 3.14 * R 
+  PRINT  "RADIUS" , "DIAMETER" , "CIRCUMFERENCE" , "AREA" 
+  PRINT  R , D , C , A 
+ END 
+    END 
+       END 
+   END  
+   
+   
+   
+  [PROGRAM END] 
+
